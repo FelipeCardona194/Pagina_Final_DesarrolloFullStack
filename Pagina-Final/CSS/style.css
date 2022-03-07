@@ -1,0 +1,388 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Condensed:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Condensed:wght@300&display=swap'); */
+
+/* ------------------------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: black;
+}
+ 
+/* Header */
+
+header {
+    background-color: #ff7f3f;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 100px;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 30px;
+    list-style: none;
+}
+
+a {
+    font-size: 18px;    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    transition: all 0.3s;
+    font-stretch: wider;
+}
+
+a:hover {
+    color: white;
+}
+
+.logo{
+
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+    padding-left: 100px;
+}
+
+
+.btn {
+    padding: 10px 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #95CD41;
+    *background-color: #B05E27;
+}
+
+div  h1 {
+    color: white;
+    text-align: center;
+    *font-family: 'Redressed', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-transform: uppercase;
+}
+
+#subtitulo {
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+    padding-top: 20px;
+    color: #ff7f3f;
+    font-size: 20px; 
+}
+
+#subtitulo:hover{
+    color: white;
+    cursor: pointer;
+}
+
+h3 {
+    font-family: 'Redressed', cursive;
+    text-transform: uppercase;
+}
+
+/* Parte 2 */
+
+.parte2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto1 {
+    display: flex;
+    margin: auto;
+}
+
+.parte2 img {
+    display: flex;
+    margin-left: 50px;
+    padding-top: 50px;
+    max-width: 35%;
+    cursor: pointer;
+}
+
+.parte2 p {
+    color: white;
+    margin: auto;
+    padding-left: 40px ;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: justify;
+    *font-family: 'Redressed', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-left: 880px;
+    margin-top: 290px;
+    position: absolute;
+    font-weight: 900;
+}
+
+.btn1:hover {
+    background-color: #ff7f3f;
+}
+
+ /* Parte3 */
+
+.parte3 {
+    display: inline-block;
+    width: 99%;
+    display: flex;
+    margin-top: 100px;
+   
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+}
+.container img {
+    max-width: 100%;
+}
+
+.container2 {
+    padding-left: 10px;
+    margin: auto;
+}
+.container2 img {
+    max-width: 100%;
+}
+
+/* Parte 4 */
+
+.parte4 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box
+}
+.parte4 h3 {
+    color: #ff7f3f;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-align: center;
+}
+
+.parte4 p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cont1 */
+.cont {
+    *width: 31%;
+}
+.cont img {
+    max-width: 60%;
+    clip-path: circle(39.0% at 55% 60%);
+    padding-top: 40px;
+    margin: 33px;  
+    cursor: pointer;   
+}
+
+.cont p {
+    margin: 13px;
+    font-weight: 500;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+
+/* Cont2 */
+
+.cont2 {
+    *width: 31%;
+}
+
+.cont2 img {
+    max-width: 60%;
+    clip-path: circle(40.0% at 50% 60%);
+    *padding: 40px 40px 40px 40px;  
+    padding-top: 40px;
+    margin: 33px;  
+    cursor: pointer;
+}
+
+.cont2 p {
+    text-align: center;
+    margin: 13px;
+    font-weight: 500;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+/* Cont3 */
+.cont3 {
+    *width: 31%;
+}
+
+.cont3 img {
+    max-width: 60%;
+    clip-path: circle(41.0% at 50% 63%);
+    padding-top: 40px;
+    margin: 33px;
+    cursor: pointer;
+}
+
+.cont3 p {
+    text-align: center;
+    margin: 13px;
+    font-weight: 500;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    background: #2020204b;
+    color: white;   
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.colum2 label {
+    cursor: pointer;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.colum3 label {
+    cursor: pointer;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+
+
+
+
+
